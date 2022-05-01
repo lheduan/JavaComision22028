@@ -1,0 +1,171 @@
+.Portada {
+position: relative;
+display: inline-flex
+}
+
+.Portada img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.Caja{
+    position: absolute;
+    top: 300px;
+    left: 60%;
+    font-size: 16px;
+    color: white;
+    
+}
+
+.btnTransparente{
+    color: white;
+    background-color: transparent ;
+    border-radius: 6px;
+}
+
+.btnVerde{
+    color: white;
+    background-color: green ;
+    border-radius: 6px;
+}
+
+.Head{
+    color: grey;
+    background-color: rgb(47, 47, 62);
+    display: flex;
+    top: 1000px;
+    left: 0%;
+    position: static;
+     
+}
+
+.Head img{
+    max-width: 50%;
+    max-height: 50%;
+     
+}
+
+.text-aling-center{
+    height: 100px;
+    text-align: center;
+}
+
+.btnVerdee{
+    width: 720px;
+    background-color: green ;
+}
+
+.btnNombre{
+    width: 350px;
+}
+
+.btnApellido{
+    width: 350px;
+}
+
+.ORADOR{
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.PARTE2{
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+}
+
+.or2{
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.CHARLA{
+    text-align: left;
+    margin-left: 8cm;
+}
+
+.Pie{
+    color: white;
+    background-color: blue;
+    display: flex;
+    padding-left: 6cm;
+   
+   
+}
+
+.oradores {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tarjetas {
+    width: 300px;
+    height: 480px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: .5rem;
+}
+
+.tarjetas img {
+    width: 300px;
+}
+
+.tarjetas .botones {
+    margin: 1.5rem .5rem .2rem .5rem;
+}
+
+.tarjetas .botones input[type="button"] {
+    font-size: .7rem;
+    font-weight: bold;
+    padding: 0.1rem 0.4rem .1rem 0.4rem;
+}
+
+.tarjetas .botones input[type="button"]:hover {
+    animation: bounceIn; 
+    animation-duration: 1s; 
+}
+
+
+.tarjetas .botones .btnAmarillo {
+    /* background-color: rgb(255, 193, 8); */
+    background-color: #fec107;
+    border: 0;
+    border-radius: 5px;
+}
+
+.tarjetas .botones .btnAzul {
+    /* background-color: rgb(255, 193, 8); */
+    background-color: #18a3ba;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+}
+
+.tarjetas .titulo {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: .2rem .5rem 1rem .5rem;
+}
+
+.tarjetas .texto {
+    font-size: .8rem;
+    margin: .5rem;
+    text-align: justify;
+}
+
+.Octubre img
+{ max-width: 100%;
+    max-height: 100%;
+    left: 0%;
+    top: 0%;
+}
+
+.Octubre {
+    display: flex;
+    background-color: rgb(47, 47, 62);
+  
+       
+}
